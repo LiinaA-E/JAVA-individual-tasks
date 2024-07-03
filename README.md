@@ -28,3 +28,30 @@ Easy: Work with String in ArrayList. All the actions should be available for use
 Medium: Work with String User should be able to repeat all the actions infinitely.
 
 Hard: Create a Book class and work with Book object to the ArrayList.
+
+# 13.06.2024 Individual Task Cheese Shop
+
+Develop a program that contains multiple classes.
+
+Choose one of the topics.
+
+Easy: Cheese shop
+
+Should contain these classes.
+
+Cheese 
+
+CheeseShop - gives access for the shop owner to add/remove different cheeses, gives access for the customer to buy different cheeses, remove cheese from cart, should be possible to get all the cheeses from the cart or available cheeses in the store
+
+Main - User UI, accesses CheeseService and CheeseShop to buy or to add different cheeses.
+
+
+Medium: same as easy, but add 2 more classes
+
+CheeseService - gives access for the shop owner to add different cheeses (should remove this functionality from CheeseShop)
+
+Customer - contains money the customer has, contains the items the customer owns. Whenever the customer buys something, money is reduced. If customer doesn't have any money left, then notify the user about it.
+
+
+
+Hard: Same as medium, but save all the data in JSON.txt file. Should be able to save all the data in JSON and when opening the program again, it should save all the information.
